@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #bc4e9c, #ff1b63);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 15px 35px;
+}
+
+input:focus {
+    background-color: #ffdbe6;
+    transition: 0.3s;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    accent-color: purple;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 5px purple;
+    background-color: purple;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    color: #ff1b63;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.copy {
+    width: 100px;
+    min-width: 100px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+label {
+    color: white;
+}
+
+button:hover {
+    background-color: #ffdbe6;
+    transition: 0.3s;
+    cursor: pointer;  
+}
+
+.length {
+    width: 60px;
+    height: 25px;
+    padding: 10px;
+    font-size: 12px;
+}

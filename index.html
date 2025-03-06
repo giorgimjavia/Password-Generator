@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <form action="#">
+            <div class="form-container">
+            <div>
+                <input type="text" class="input">
+                <button type="button" class="copy">Copy</button>
+            </div>
+
+            <div>
+                <input type="number" placeholder="Length" class="length">
+                <label for="length"></label>
+            </div>
+
+            <div>
+                <input type="checkbox" class="lowercase_check">
+                <label for="alphabet_lowercase">a,b,c,d,e ...</label>
+            </div>
+
+            <div>
+                <input type="checkbox" class="uppercase_check">
+                <label for="alphabet_uppercase">A,B,C,D,E ...</label>
+            </div>
+
+            <div>
+                <input type="checkbox" class="numbers_check">
+                <label for="numbers">1,2,3,4,5 ...</label>
+            </div>
+
+            <div>
+                <input type="checkbox" class="punctuations_check">
+                <label for="punctuation">!@#$% ...</label>
+            </div>
+
+            <div>
+                <button type="button" class="button">Generate</button>
+            </div>
+        </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
